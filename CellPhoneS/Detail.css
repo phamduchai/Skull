@@ -1,0 +1,268 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+}
+.BannerTopHead {
+    display: flex;
+    background-color: #e9efff;
+    margin-top: 1.2%;
+}
+
+    .BannerTopHead img {
+        padding-left: 50%;
+    }
+
+.block-breadcrumbs {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+    .block-breadcrumbs a {
+        text-decoration: none;
+        color: #0077ff;
+    }
+
+        .block-breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+.wrapper {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 11%;
+}
+
+.adv_wrapper {
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+
+header {
+    background-color: #e9efff;
+    margin-top: -15px;
+}
+
+nav {
+    margin-top: -20px;
+}
+
+.adv_wrapper1 {
+    margin-top: 0px;
+}
+
+.adv_img_1 {
+    height: 40px;
+    width: 400px;
+}
+
+.Big_menu {
+    background-color: #d70018;
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+.box-product-name{
+    padding-top: 15%;
+    margin-left: 13%;
+    font-size: 20px;
+}
+ul li {
+    padding-left: 5px;
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+
+    .search-container input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+
+
+    .search-container button[type="submit"] {
+        background-color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+
+
+        .search-container button[type="submit"]:hover {
+            background-color: dimgray;
+        }
+
+.menu_child {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    width: 80px;
+}
+
+    .menu_child:hover {
+        background-color: wheat;
+        border-radius: 5px;
+        width: 80px;
+        height: 40px;
+    }
+
+.fa-search {
+    font-size: 18px;
+}
+
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    margin-top: -230px;
+    margin-left: 23%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 290px;
+}
+.slider{
+    width: 600px;
+    height:400px;
+    position:relative;
+    margin-left:auto;
+    overflow :hidden;
+    
+    margin-right: 50%;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.list{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    display:flex;
+    width:max-content;
+    transition: 1s;
+}
+    .list .item {
+        width: 600px;
+        height: 100%;
+        padding-left: 120px;
+    }
+    .list img {
+        width: 400px;
+        height: 100%;
+        object-fit: cover;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+.buttons{
+    position:absolute;
+    top:45%;
+    left:5%;
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+}
+.buttons button{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:black;
+    color: #fff;
+    border:none;
+    font-family: monospace;
+    font-weight:bold;
+}
+.dots{
+    position:absolute;
+    bottom:10px;
+    color: black;
+    left:0;
+    width:100%;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    transition: 1s;
+    
+}
+.dots li{
+    list-style:none;
+    width:10px;
+    height:10px;
+    background-color: black;
+    margin:20px;
+    border-radius:20px;
+}
+.dots li.active{
+    width:30px;
+}
+.product-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 55%;
+    margin-top: -25%;
+    width: 420px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 35px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+    input[type="checkbox"] + label {
+        cursor: pointer;
+        padding-left: 30px;
+        position: relative;
+    }
+
+        input[type="checkbox"] + label:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #0077ff;
+            background-color: transparent; 
+            border-radius: 4px;
+        }
+
+    input[type="checkbox"]:checked + label:before {
+        background-color: #0077ff;
+    }
+.Select-color {
+    margin-left: 55%;
+}
+.product-color {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
